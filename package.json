@@ -1,0 +1,22 @@
+{
+  "name": "r2-log-merger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "merge.js",
+  "scripts": {
+    "merge": "dotenv -- node merge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.844.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^17.2.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0"
+  }
+}

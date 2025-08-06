@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# dotenv environment variables
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# Editor-specific
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+#project files
+/merged
+merge.log
