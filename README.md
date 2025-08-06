@@ -1,4 +1,3 @@
-````markdown
 # R2 Log Merger
 
 This project is designed to work alongside [`cloudflare-access-logger`](https://github.com/GnicT/cloudflare-access-logger). It pulls Cloudflare Worker access logs from an R2 bucket, merges them, and optionally sends a summary to Slack.
@@ -65,6 +64,4 @@ This project is designed to work alongside [`cloudflare-access-logger`](https://
 
 ## 📄 License
 
-MIT
-
-````
+MIT © [GnicT](https://github.com/GnicT)
